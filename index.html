@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Portal</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&family=Red+Hat+Text:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="container">
+
+    <div class="login_modal">
+        <div class="login_back"></div>
+        <div class="login_back_opacity"></div>
+        <div class="login_window">
+            <h1 class="log_name">Log in to your account</h1>
+
+            <button class="box_log box_log--facebook">
+                <img src="./images/login_way/path14.png" />
+                Sign In with Facebook
+            </button>
+
+            <button class="box_log box_log--google">
+                <img src="./images/login_way/Google Logo.png" />
+                Sign In with Google
+            </button>
+
+            <div class="or_block">
+                <div class="line"></div>
+                <p class="or_text">or</p>
+                <div class="line"></div>
+            </div>
+            <div class="data_log">
+                <p>E-mail</p>
+                <input class="box_log_email"></input>
+                <p>Password</p>
+                <input class="box_log_pass"></input>
+                <button class="box_log_sign">Sign In</button>
+            </div>
+            <p class="forgor_text">Forgot Your Password?</p>
+            <div class="line line--bigger"></div>
+            <p class="data_log">Don’t have an account?  <span class="forgor_text">Register</span> </p>
+        </div>
+    </div>
+
+
+    <header class="main_block">
+        <nav class="nav_header_back"></nav>
+        <nav class="nav_header">
+            <div class="logo">
+                <div class="logotype"></div>
+                <div class="logo_text">Travel Portal</div>
+            </div>
+            <div class="navigation">
+                <div class="close_burger">
+                    <div class="close"></div>
+                </div>
+                <a class="nav_text">How It Works</a>
+                <a class="nav_text">Plan Your Trip</a>
+                <a class="nav_text">Destinations</a>
+                <a class="nav_text">Travel Stories</a>
+                <a class="nav__new_text_log">Account</a>
+                <a class="nav_new_text">Social Media</a>
+            </div>
+            <button class="login">
+                Login
+            </button>
+
+            <div class="block_burger">
+                <div class="burger"></div>
+            </div>
+        </nav>
+
+        <div class="intro_block">
+            <div class="intro">
+                <div class="sup_name">Explore the beauty of the World</div>
+                <div class="sub_name">Receive personalized recommendations for countries, hotels, activities and more
+                </div>
+
+                <div class="block_back">
+                    <div class="block_plannig_back"></div>
+                    <div class="block_plannig">
+                        <p class="plan_text">What would you like to do?</p>
+                        <button class="button_plannig">Start Planning</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <section class="content">
+
+        <div class="block_three_steps">
+            <div class="suptitle_steps">3 Steps to the perfect trip</div>
+            <div class="three_steps">
+                <div class="step_with_sub ">
+                    <img src="./images/Frame 28.png" class="step_img step_img--1">
+                    <p class="sub_text sub_text--1">Tell us what you want to do</p>
+                </div>
+
+                <div class="step_with_sub">
+                    <img src="./images/Frame 11.png" class="step_img step_img--2"></img>
+                    <p class="sub_text sub_text--2">Share us preferable dates </p>
+                </div>
+                <div class="step_with_sub">
+                    <img src="./images/Frame 12.png" class="step_img step_img--3"></img>
+                    <p class="sub_text sub_text--3">We will give you recommendations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <hi class="destination">POPULAR DESTINATIONS</hi>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="img_slider img_slider--1" />
+                </div>
+                <div class="swiper-slide">
+                    <img class="img_slider img_slider--2"/>
+                </div>
+                <div class="swiper-slide">
+                    <img class="img_slider img_slider--3"/>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="wrap_buttom">
+            <button class="find_more">
+                <img class="img_find_more" src="./images/bi_arrow-right.png" />
+                <p>Find More</p>
+            </button>
+        </div>
+    </section>
+
+    <section class="wrapper wrapper--story">
+        <hi class="destination destination--story">TRAVEL STORIES</hi>
+        <div class="fon_story">
+
+
+            <div class="opacity_fon_story"></div>
+            <div class="stories">
+                <div class="items_story">
+                    <div class="img_story img_story--one"></div>
+                    <div class="text_with_sub">
+                        <div class="sub_story">10 Photos of Attractive Thailand</div>
+                        <div class="text_story">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
+                                <span class="read_more">Read More</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items_story">
+                    <div class="img_story img_story--two"></div>
+                    <div class="text_with_sub">
+                        <div class="sub_story">Canyonlands National Park, Utah</div>
+                        <div class="text_story">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
+                                <span class="read_more">Read More</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items_story">
+                    <div class="img_story img_story--three"></div>
+                    <div class="text_with_sub">
+                        <div class="sub_story">I left my heart in the Mountains!</div>
+                        <div class="text_story">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
+                                <span class="read_more">Read More</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items_story">
+                    <div class="img_story img_story--four"></div>
+                    <div class="text_with_sub">
+                        <div class="sub_story">The Longest journey in my life!</div>
+                        <div class="text_story">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
+                                <span class="read_more">Read More</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrap_buttom wrap_buttom--send">
+                    <button class="find_more">
+                        <img class="img_find_more" src="./images/bi_arrow-right.png" />
+                        <p>See More</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_block">
+            <h1 class="foote_text">All Rights Reserved © Travel Portal</h1>
+            <div class="floor_block_net">
+                <img class="footer_img" src="./images/network/Group.png" />
+                <img class="footer_img" src="./images/network/Vector(1).png" />
+                <img class="footer_img" src="./images/network/Vector.png" />
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>
